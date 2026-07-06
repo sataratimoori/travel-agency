@@ -9,13 +9,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body data-bs-target="#navbar" data-bs-spy="scroll">
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg bg-header px-3 py-2 sticky-top" id="navbar">
+    <nav class="navbar navbar-expand-lg bg-header px-3 py-2" id="navbar">
         <div class="container-fluid">
-            <a class="navbar-brand fs-2 fw-bold text-white" href="#"><img src="img/logo.png" class="logo-img" alt="">Travel</a>
+            <a class="navbar-brand fs-2 fw-bold text-one" href="#"><img src="img/logo.png" class="logo-img" alt="">Travel</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -32,9 +33,9 @@
                     </li>
                 </ul>
                 <div class="d-flex gap-3 justify-content-end align-items-center">
-                    <i class="fa-brands fa-instagram fs-4"></i>
-                    <i class="fa-brands fa-tiktok fs-4"></i>
-                    <i class="fa-brands fa-facebook-f fs-4"></i>
+                    <i class="fa-brands fa-instagram fs-4 icon-header"></i>
+                    <i class="fa-brands fa-tiktok fs-4 icon-header"></i>
+                    <i class="fa-brands fa-facebook-f fs-4 icon-header"></i>
                 </div>
             </div>
         </div>
@@ -43,7 +44,30 @@
     <main>
         <!-- HERO -->
         <section class="hero" id="hero">
-
+            <div class="container text-white">
+                <div class="row align-items-center justify-content-center vh-100">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <h1 class="fs-1 text-one fw-bold">Your Journey Begins Here</h1>
+                        <p class="">Explore breathtaking destinations around the world with comfort and confidence. We provide unforgettable travel experiences, helping you create beautiful memories on every journey.</p>
+                        <button type="button" class="btn btn-outline-yellow">Book Now</button>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <!-- Slider main container -->
+                        <div class="swiper">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide"><img src="img/image-2.jpg" class="rounded border image-slide" alt=""></div>
+                                <div class="swiper-slide"><img src="img/image-3.jpg" class="rounded border image-slide" alt=""></div>
+                                <div class="swiper-slide"><img src="img/image-4.jpg" class="rounded border image-slide" alt=""></div>
+                                <div class="swiper-slide"><img src="img/image-5.jpg" class="rounded border image-slide" alt=""></div>
+                                <div class="swiper-slide"><img src="img/image-6.jpg" class="rounded border image-slide" alt=""></div>
+                                <div class="swiper-slide"><img src="img/image-7.jpg" class="rounded border image-slide" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <!-- SLIDESHOW -->
         <section class="slide" id="slide">
@@ -59,6 +83,7 @@
         </section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
