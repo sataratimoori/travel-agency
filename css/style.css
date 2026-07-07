@@ -116,6 +116,8 @@ body {
     border-color: #D4A017 !important;
 }
 
+/* SLIDESHOW */
+
 .panorama-swiper{
     width: 100%;
     height: 500px;
@@ -140,4 +142,44 @@ body {
     left: 20%;
     color: #fff;
     z-index: 2;
+}
+
+
+/* Destinations */
+.continent-title {
+    position: relative;
+    padding: 30px 0;
+}
+
+.continent-title::before,
+.continent-title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(to right, transparent, #555, transparent);
+}
+
+.continent-title::before {
+    top: 0;
+}
+
+.continent-title::after {
+    bottom: 0;
+}
+
+/* ABOUT */
+.border-end{
+    border-color: #D4A017 !important;
+}
+
+.border-yellow{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    border: #D4A017 solid 1px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
 }
