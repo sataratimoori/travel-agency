@@ -183,3 +183,11 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+/* FOOTER */
+.footer{
+    background:
+        linear-gradient(rgba(22, 46, 46, 0.7), rgba(22, 46, 46, 0.7)),
+        url("../img/Golden Horizon Serenity ✨🌄.jpg") no-repeat center;
+    background-size: cover;
+}
