@@ -32,7 +32,7 @@ body {
     z-index: 1000;
 }
 
-.nav-link:hover, .nav-link.active{
+.navbar .nav-link:hover, .navbar .nav-link.active{
     text-decoration: underline !important;
     color: #D4A017 !important;
 }
